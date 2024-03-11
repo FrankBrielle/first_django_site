@@ -1,0 +1,10 @@
+{% extends "learning_logs/base.html" %}
+
+{% block page_header %}
+  <div class="jumbotron">
+    <h1 class="display-3">Штош, это мой первый сайт на Django.</h1>
+
+    <p class="lead">Если ты это читаешь, значит, сайт работает.</p>
+    <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">Регистрация &raquo;</a>
+  </div>
+{% endblock page_header %}
